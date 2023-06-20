@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Con_ColAeroSpace_CSharpIntro.CollectionEg</StartupObject>
+    <StartupObject>Con_ColAeroSpace_CSharpIntro.MISC_2_3</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -50,12 +50,15 @@
     <Compile Include="ConstructorAndDestructor.cs" />
     <Compile Include="DataTypeEx.cs" />
     <Compile Include="DelegateEg.cs" />
+    <Compile Include="DynamicTypingEg.cs" />
     <Compile Include="EventsEg.cs" />
     <Compile Include="ExceptionHandling.cs" />
     <Compile Include="GenericEg.cs" />
     <Compile Include="InterfaceEg.cs" />
     <Compile Include="MethodEg.cs" />
+    <Compile Include="MISC_2_3.cs" />
     <Compile Include="OOPEg.cs" />
+    <Compile Include="PartialClassEg.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="ProgramConstructs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
