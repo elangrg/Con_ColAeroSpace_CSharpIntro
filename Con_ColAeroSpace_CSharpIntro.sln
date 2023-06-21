@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConCoreEg", "ConCoreEg\ConC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathLibCore", "MathLibCore\MathLibCore.csproj", "{5BAFAC20-A298-4310-A00A-8496B5E66F89}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormIntro", "WinFormIntro\WinFormIntro.csproj", "{A11B24F8-EC58-4158-98F5-2D1F7A347D04}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{5BAFAC20-A298-4310-A00A-8496B5E66F89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BAFAC20-A298-4310-A00A-8496B5E66F89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BAFAC20-A298-4310-A00A-8496B5E66F89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A11B24F8-EC58-4158-98F5-2D1F7A347D04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A11B24F8-EC58-4158-98F5-2D1F7A347D04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A11B24F8-EC58-4158-98F5-2D1F7A347D04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A11B24F8-EC58-4158-98F5-2D1F7A347D04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
