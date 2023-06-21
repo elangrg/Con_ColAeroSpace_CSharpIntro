@@ -110,6 +110,7 @@
     <None Include="EmpDbDataSet.xss">
       <DependentUpon>EmpDbDataSet.xsd</DependentUpon>
     </None>
+    <None Include="Models\Agenda_13Jun2023_colAeroSpace.pptx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
