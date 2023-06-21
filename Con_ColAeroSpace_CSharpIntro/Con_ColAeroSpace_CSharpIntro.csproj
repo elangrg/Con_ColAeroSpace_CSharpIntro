@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Con_ColAeroSpace_CSharpIntro.ThreadingEg</StartupObject>
+    <StartupObject>Con_ColAeroSpace_CSharpIntro.ParallelismEg</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -59,6 +59,7 @@
     <Compile Include="MethodEg.cs" />
     <Compile Include="MISC_2_3.cs" />
     <Compile Include="OOPEg.cs" />
+    <Compile Include="ParallelismEg.cs" />
     <Compile Include="PartialClassEg.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="ProgramConstructs.cs" />
