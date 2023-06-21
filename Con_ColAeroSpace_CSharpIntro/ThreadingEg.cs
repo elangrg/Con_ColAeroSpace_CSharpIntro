@@ -19,18 +19,15 @@ namespace Con_ColAeroSpace_CSharpIntro
 
             Thread t1 = new Thread(objWorker.DoWork);
             t1.Name = "SEC1";
-            t1.IsBackground= true;
-
             t1.Start();
 
-            Console.WriteLine("After Thread Init");
+
+            Thread t2 = new Thread(objWorker.DoOtherWork);
+            t2.Name = "SEC2";
+            t2.Start();
 
 
-            for (int i = 0; i < 100; i++)
-            {
-                Console.WriteLine($"I value is {i} is part of thread '{Thread.CurrentThread.ManagedThreadId}, {Thread.CurrentThread.Name}'");
-                Thread.Sleep(100);
-            }
+           
             Console.WriteLine("EOL of Main");
             Console.ReadKey();
 
@@ -48,16 +45,35 @@ namespace Con_ColAeroSpace_CSharpIntro
         public void DoWork()
         {
 
-            for (int i = 0; i < 100; i++)
-
+            lock (this)
             {
-                Console.WriteLine(   $"CTR value is {_ctr} is part of thread '{Thread.CurrentThread.ManagedThreadId}, {Thread.CurrentThread.Name}'"  );
-                _ctr++;
-                Thread.Sleep(300);
+                for (int i = 0; i < 100; i++)
+
+                {
+                    Console.WriteLine($"CTR value is {_ctr} is part of thread '{Thread.CurrentThread.ManagedThreadId}, {Thread.CurrentThread.Name}'");
+                    _ctr++;
+                    Thread.Sleep(300);
+                } 
             }
 
         }
 
+
+        public void DoOtherWork()
+        {
+
+            lock (this)
+            {
+                for (int i = 0; i < 100; i++)
+
+                {
+                    Console.WriteLine($"CTR value is {_ctr} is part of thread '{Thread.CurrentThread.ManagedThreadId}, {Thread.CurrentThread.Name}'");
+                    _ctr++;
+                    Thread.Sleep(300);
+                }
+
+            }
+        }
 
     }
 
