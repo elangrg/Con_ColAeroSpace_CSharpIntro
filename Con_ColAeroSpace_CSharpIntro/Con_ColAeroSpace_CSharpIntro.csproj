@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Con_ColAeroSpace_CSharpIntro.LINQ_Std_Operators</StartupObject>
+    <StartupObject>Con_ColAeroSpace_CSharpIntro.ThreadingEg</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -63,6 +63,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="ProgramConstructs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThreadingEg.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
